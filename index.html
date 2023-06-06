@@ -11,25 +11,48 @@
 
 <body>
 
-    <h1>tableau</h1>
-      <table class="table">
+    <h1 class="text-center bg-warning p-3 my-0">Tableau d'élèves</h1>
+    <table class="table mb-5 table-striped table-dark">
+        <thead>
+            <tr>
+                <th scope="col" class="py-3">#</th>
+                <th scope="col" class="py-3">Nom</th>
+                <th scope="col" class="py-3">Age</th>
+                <th scope="col" class="py-3">Note</th>
+            </tr>
+        </thead>
+        <tbody id="eleve">
+
+        </tbody>
+    </table>
+
+    <table class="table my-5 table-striped">
         <thead>
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">nom</th>
-                <th scope="col">age</th>
-                <th scope="col">note</th>
+                <th scope="col">le plus jeune</th>
+                <th scope="col">le plus vieux</th>
+                <th scope="col">la plus forte note</th>
+                <th scope="col">la plus faible note</th>
             </tr>
         </thead>
-        <tbody>
-            <tr id="test">
-                <td id="#"></td>
-                <td id="nom"></td>
-                <td id="age"></td>
-                <td id="note"></td>
+        <tbody id="eleve">
+            <tr>
+                <th>nom</th>
+                <td>élève 3</td>
+                <td>élève 6</td>
+                <td>élève 5</td>
+                <td>élève 2</td>
             </tr>
-        </tbody> 
-    </table> 
+            <tr>
+                <th>valeur</th>
+                <td>12</td>
+                <td>17</td>
+                <td>20</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
 
     <script src="index.js"></script>
 </body>
