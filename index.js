@@ -15,9 +15,9 @@ for(let i in objet){
     document.getElementById('eleve').innerHTML  += 
     `<tr>
         <td class="py-3">${i}</td>
-        <td class="w-25 py-3 align-middle">${objet[i].prenom}</td>
-        <td class="w-25 py-3 align-middle">${objet[i].age}</td>
-        <td class="w-25 py-3 align-middle">${objet[i].note}</td>
+        <td class="w-25 py-3">${objet[i].prenom}</td>
+        <td class="w-25 py-3">${objet[i].age}</td>
+        <td class="w-25 py-3">${objet[i].note}</td>
       </tr>
       `   
     
